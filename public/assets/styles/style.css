@@ -247,3 +247,25 @@ ul.dropdown li:hover ul {
     margin-top: 2rem;
     color: white;
 }
+
+.btones {
+    display: grid;
+    width: 40rem;
+    height: 10rem;
+    gap: 1rem;
+}
+
+.btn-nv {
+    background-color: #494848;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-nv:hover {
+    background-color: #343434;
+    color: white;
+    border-color: #fff;
+}
