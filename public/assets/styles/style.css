@@ -118,7 +118,7 @@ ul.dropdown li:hover ul {
 .barra-inf {
     display: flex;
     justify-content: center;
-    width: 120rem;
+    width: auto;
     background-color: rgba(217, 217, 217, 1);
     margin: 0 auto;
 }
@@ -154,6 +154,7 @@ ul.dropdown li:hover ul {
 
 .container-trad {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
 }
@@ -386,17 +387,18 @@ ul.dropdown li:hover ul {
     }
     .container-trad {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         gap: 2rem;
         justify-content: center;
     }
     .uno {
-        width: 60rem;
+        width: 40rem;
         height: 50rem;
         background-color: rgba(0, 249, 181, 1);
     }
     .dos {
-        width: 60rem;
+        width: 40rem;
         height: 50rem;
         background-color: rgba(0, 249, 181, 1);
     }
