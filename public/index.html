@@ -8,15 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <script src="/public/assets/scripts/main.js"></script>
+
+    <title>AppChanceCode</title>
 </head>
 
 <body>
     <main>
         <div class="fixed-top">
             <nav class="navbar">
-                <div>
-                    <a href="#"><img src="/public/assets/images/logowhite.png" alt="" width="100px"></a>
+                <div class="logo-app">
+                    <a href="/public/register.html"><img src="/public/assets/images/logowhite.png" alt="" width="100px"></a>
                 </div>
                 <div class="menu-cont">
                     <a href="/public/index.html"><img src="/public/assets/images/home.png" alt="" width="50"></a>
@@ -45,7 +47,7 @@
 
         <Section>
             <div class="frase-dos">
-                <h2>Detecta tu lenguaje automaticamente</h2>
+                <p class="frase-dos">Detecta tu lenguaje automaticamente</p>
             </div>
             <div class="container-trad">
                 <div class="container-uno">
@@ -81,7 +83,10 @@
 
                 </div>
             </div>
-
+            <div class=" camera">
+                <img src="/public/assets/images/lente.png" width="70px" alt="">
+                <p>Abrir camara</p>
+            </div>
         </Section>
 
         <section>
@@ -90,7 +95,7 @@
                 <h3>Lo que piensan de Nosotros</h3>
             </div>
             <div class="container-cards">
-                <div class="card">
+                <div class="card" id="card1">
                     <div><img src="/public/assets/images/userone.png" alt=""></div>
                     <div>
                         <p>Es un gran programa que me permite traducir grandes bloques de <br> código de manera efectiva y rápida, además su interfaz es intuitiva y <br> amigable.</p>
@@ -99,7 +104,7 @@
                         <p> <strong> Rubén Herhuay Carroñe </strong></p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="card2">
                     <div><img src="/public/assets/images/userdos.png" alt=""></div>
                     <div>
                         <p>Me encanto la navegación por el programa, es interesante la <br> información que me brinda y las actualizaciones sobre el mundo de <br> la programación.
@@ -109,7 +114,53 @@
                         <p> <strong> Nicole Pacheco Carrazco </strong></p>
                     </div>
                 </div>
+
+                <div class="card" id="card3">
+                    <div><img src="/public/assets/images/userseis.png" alt=""></div>
+                    <div>
+                        <p>Me encanto la navegación por el programa, es interesante la <br> información que me brinda y las actualizaciones sobre el mundo de <br> la programación.
+                        </p>
+                    </div>
+                    <div>
+                        <p> <strong> Adrian Campos Richeti </strong></p>
+                    </div>
+                </div>
+
+                <div class="card" id="card4">
+                    <div><img src="/public/assets/images/usertres.png" alt=""></div>
+                    <div>
+                        <p>Me encanto la navegación por el programa, es interesante la <br> información que me brinda y las actualizaciones sobre el mundo de <br> la programación.
+                        </p>
+                    </div>
+                    <div>
+                        <p> <strong> Carlos Grau Seminario </strong></p>
+                    </div>
+                </div>
+
+                <div class="card" id="card5">
+                    <div><img src="/public/assets/images/usercuatro.png" alt=""></div>
+                    <div>
+                        <p>Me encanto la navegación por el programa, es interesante la <br> información que me brinda y las actualizaciones sobre el mundo de <br> la programación.
+                        </p>
+                    </div>
+                    <div>
+                        <p> <strong> Rudolf Torres Closs </strong></p>
+                    </div>
+                </div>
+
+                <div class="card" id="card6">
+                    <div><img src="/public/assets/images/usercinco.png" alt=""></div>
+                    <div>
+                        <p>Me encanto la navegación por el programa, es interesante la <br> información que me brinda y las actualizaciones sobre el mundo de <br> la programación.
+                        </p>
+                    </div>
+                    <div>
+                        <p> <strong> Cristian Beckham Quispe </strong></p>
+                    </div>
+                </div>
+
             </div>
+
             <div class="linea-sep"></div>
         </section>
         <footer class="foot">
@@ -123,14 +174,14 @@
         </footer>
         <div class="footer-inf">
             <div class="form">
-                <p>Ingrese su Correo</p>
+                <p>Suscribete para más información</p>
                 <input type="text" id="fname" name="fname"><br>
                 <button class="btn">Ingresar</button>
             </div>
             <div class="contactos">
                 <a href="#">Contacto</a>
                 <a href="/public/index.html">Nosotros</a>
-                <a href="/public/register.html">Login</a>
+                <a href="/public/ajustes.html">Configuraciones</a>
             </div>
         </div>
     </main>

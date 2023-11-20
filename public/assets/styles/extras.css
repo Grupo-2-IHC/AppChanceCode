@@ -1,14 +1,22 @@
 .bloque {
     height: 20rem;
-    width: 150rem;
+    width: 100rem;
     background-color: #333;
     margin: 2rem;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
+    border-radius: 2rem;
+    font-weight: bold;
 }
 
 .container-bloque {
-    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 6rem;
 }
 
 .casilla-bloque {
@@ -73,4 +81,88 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.usuario-perfil {
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .bloque {
+        height: 22rem;
+        width: 100rem;
+        background-color: #333;
+        margin: 2rem;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        border-radius: 2rem;
+        font-weight: bold;
+    }
+    .container-bloque {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        padding-top: 10rem;
+    }
+    .section-perfil {
+        margin-top: 10rem;
+        padding: 3rem;
+    }
+    .container-perfil {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        align-items: center;
+    }
+    .bloque-plan {
+        width: auto;
+        height: auto;
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+    }
+    .planes {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        color: #333;
+    }
+    .plan {
+        color: white;
+        background-color: #272727;
+        width: 20rem;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .usuario-perfil {
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+    .bloque {
+        height: 22rem;
+        width: 100rem;
+        background-color: #333;
+        margin: 2rem;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        border-radius: 2rem;
+        font-weight: bold;
+    }
+    .container-bloque {
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        padding-top: 10rem;
+    }
 }
