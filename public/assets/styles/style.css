@@ -127,12 +127,16 @@ ul.dropdown li:hover ul {
     display: grid;
     justify-items: center;
     padding: 2rem;
+    background-color: #767474;
+    border-radius: 2rem;
 }
 
 .container-dos {
     display: grid;
     justify-items: center;
     padding: 2rem;
+    background-color: rgb(120, 230, 230);
+    border-radius: 2rem;
 }
 
 .selector {
